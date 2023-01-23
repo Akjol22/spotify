@@ -5,6 +5,7 @@ from .utils import send_activation_code
 
 User = get_user_model()
 
+
 class RegistrationSerializer(serializers.Serializer):
     email = serializers.EmailField(required=True)
 
